@@ -1,19 +1,15 @@
 {
-  "name": "server",
+  "name": "graphql-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.2.1",
+    "express": "^4.18.2",
     "express-graphql": "^0.12.0",
-    "graphql": "^15.10.1",
-    "lodash": "^4.17.21",
-    "mongoose": "^9.1.5"
+    "graphql": "^16.8.1",
+    "mongoose": "^8.1.0"
   }
 }
